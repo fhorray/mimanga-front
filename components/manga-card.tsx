@@ -1,4 +1,5 @@
 import { LockIcon } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 const MangaCard = () => {
@@ -6,10 +7,12 @@ const MangaCard = () => {
     <div className="h-40 min-w-[32%] bg-slate-100 rounded flex gap-4">
       {/* IMAGE */}
       <div>
-        <img
+        <Image
           src="https://placehold.co/467x700"
           alt="Manga cover"
           className="w-full h-full rounded"
+          width={467}
+          height={700}
         />
       </div>
 

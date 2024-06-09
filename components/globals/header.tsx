@@ -22,6 +22,7 @@ export const Header = () => {
     <header className="bg-slate-900 text-white fixed w-full">
       <div className="h-[90px] max-w-7xl mx-auto flex justify-between gap-10 items-center">
         <div className="flex gap-10 ">
+          {/* SIDEBAR */}
           <Sheet>
             <SheetTrigger>
               <MenuIcon className="h-6 w-6" />
